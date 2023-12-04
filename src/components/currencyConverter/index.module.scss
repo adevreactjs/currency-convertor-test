@@ -1,0 +1,21 @@
+.currency {
+  display: flex;
+  select {
+    font-size: 30px;
+    font-weight: normal;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  }
+}
+.currencyField {
+  input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 20px 20px;
+    letter-spacing: 1.3px;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+  }
+}
