@@ -27,7 +27,7 @@ const CurrencyConverter: FC<CurrencyConverterProps> = ({
         <input
           type='number'
           min={0}
-          value={value.toFixed(1)}
+          value={value}
           onChange={(e: ChangeEvent<HTMLInputElement>) => onChangeValue(e.target.valueAsNumber)}
         />
       </div>
